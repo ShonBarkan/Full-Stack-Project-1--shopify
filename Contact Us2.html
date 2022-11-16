@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <h1>Contact Us</h1>
+     </header>
+
+    <main>
+
+        <form class="formCU" action="./shopify2.html"> 
+            <label >first name<span class="redS">*</span>: </label>
+            <input type="text" name="name" id="firstname" class="ContactInfo" placeholder="Bon"  required  autofocus > 
+             
+            <br>
+            
+            <label >second name<span class="redS">*</span>: </label>
+            <input type="text" name="name" id="secondname" class="ContactInfo" placeholder="Sharkan" required autofocus >
+            
+            <br>
+           
+            <label >email<span class="redS">*</span>: </label>
+            <input type="email" name="email" id="email" class="ContactInfo" placeholder="email@gmail.com" required  autofocus >
+            
+            <br>
+            
+            <label >phone<span class="redS">*</span>: </label>
+            <input type="number" name="phone" id="phone" class="ContactInfo" placeholder="054-0000000" required  autofocus >
+        
+            <br>
+
+            <label for="intres"> chooes T-shirt group </label>
+            <select style="border:solid rgb(189, 181, 181) ;"name="intres" id="T-shrit" class="ContactInfo" autofocus>
+
+                <option value="0">Chooes group</option>
+                <option value="1">מאקים</option>
+                <option value="2">פטיו</option>
+                <option value="3">מאחרים</option>
+            </select>
+
+            <br>
+            
+            <label for="texterea"> your appeal: </label>
+            <textarea style="border:solid rgb(189, 181, 181) ;" name="texterea" class="ContactInfo" id="texterea" cols="30" rows="10" required autofocus placeholder="your request/question..."></textarea>
+
+            <br>
+
+            <label for="me ani">I am CyebrPro student</label>
+            <input type="checkbox" id="checkbox" name="me ani" value="yes"/>
+            <input type="submit"  class="submit" value="submit and go back to shopify">
+
+            <br>
+
+            <input type="reset"  class="reset" value="reset">
+          
+        </forme>
+
+    </main>
+
+    <footer style="margin-top:2%;">
+            <a href="./shopify2.html">Back to shopify</a>
+            <button type="button" onclick="alert('Fill out the form so we can help you.')"> click me </button>
+    </footer>
+</body>
+</html>

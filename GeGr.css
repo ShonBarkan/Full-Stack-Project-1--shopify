@@ -1,0 +1,271 @@
+
+/* *************Elemnts************* */
+img{
+    width: 90%;
+    height: 90%;
+    border:  solid rgb(255, 255, 255);    
+    border-radius: 20px; 
+    transition: transform .7s;
+    
+}
+img:hover{
+    transform: scale(1.8);
+}
+
+h4{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color:antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+h5{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+    background-color:antiquewhite ;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/* *************Elemnts************* */ 
+
+/* **********header*********** */
+header{ 
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    width: 80%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+    
+    
+}
+.kotert{
+    text-decoration: underline;
+    font-size: 60px;
+    color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    background-color: rgb(121, 108, 92) ;
+
+
+    
+}
+.smallKotert{
+    color: antiquewhite;
+    background-color: rgb(80, 71, 59);
+}
+
+.buttonTable{
+    width: 100% ; 
+    background-color: rgb(80, 71, 59);
+}
+
+/* **********header*********** */
+
+/* *************Page division************* */ 
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  25% 75% ;
+    grid-template-rows:  20% 70% ;
+}
+
+.d1{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    width: 100%;
+    margin-bottom: 2%; ;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.d2{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    width: 100%;
+    height: 100%;
+    margin-right: 60%;
+    margin-left: 3%;
+}
+/* *************Page division************* */
+
+
+
+/* *************heder************* */
+
+.kotert{
+    text-decoration: underline;
+    font-size: 60px;
+    color: antiquewhite;
+
+    
+}
+.smallKotert{
+    color: antiquewhite;
+}
+
+                /* *************ButtonHead************* */
+
+
+                
+                /* *************ButtonHead************* */
+
+
+
+/* *************heder************* */
+
+
+
+/* *************main************* */
+
+.Maincontainer{
+    text-align: center;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:  3fr 2fr 1fr ;
+    row-gap: 4%;
+    column-gap: 3%;
+    background-color: rgb(56, 53, 48);
+    border: none;
+    border-radius: 10%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    margin-left: 2.5%;
+}
+
+.Maind1{
+    text-align: center;
+    grid-column-start:1 ;
+    grid-column-end:7 ;
+    width: 100%; 
+    height: 100%;
+    margin-left: 10%;
+}
+.Maind2{
+    text-align: center;
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+.Maind3{
+    text-align: center;
+    grid-column-start:4 ;
+    grid-column-end: 7;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+.Maind4{
+    text-align: center;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+.Maind5{
+    text-align: center;
+    grid-column-start:3 ;
+    grid-column-end:5 ;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+.Maind6{
+    text-align: center;
+    grid-column-start:5 ;
+    grid-column-end:7 ;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+              /* *************main-Type************* */
+  
+.TypeContainer{
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 40% ;
+    background-color: rgb(80, 71, 59);
+    border: 2px dotted antiquewhite;
+    border-radius: 15%;
+    
+}
+    
+
+
+.pic1{
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+.pic2{
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+.Typed{
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin:0px;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+
+}
+
+
+              /* *************main-Type************* */
+
+
+             /* *************main-Type-button************* */
+
+
+.linkSub{
+    background-color: transparent;
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 30px;
+}
+.button:hover  {
+    display: block;
+    background-color:  rgb(39, 35, 30);
+}
+  
+#Top{
+    font-size: 100px;
+}
+#Middle{
+    font-size: 40px;
+}
+#End{
+    font-size: 20px;
+}
+
+             /* *************main-Type-button************* */
+
+
+
+

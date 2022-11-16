@@ -1,0 +1,236 @@
+/***************elements***************/
+img{
+  transition: transform .7s;
+}
+img:hover{
+  transform: scale(1.4);
+}
+header{
+    font-size: 25px;
+    text-align:center;
+    width:auto;
+  }
+footer{
+    background-color: rgb(181, 180, 176); 
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+    text-align: center;
+}
+
+#whiteTable{
+    text-align: center ;
+    border-radius: 5%;
+}
+
+body {
+    background-image: url(./images/back1.jpg);
+   
+  }
+
+.formCU{
+  
+    width: 30%;
+    margin-left: 35%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+  
+    background-color: aliceblue;
+    border: 2px dotted rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+h1{
+  font-size: 80px;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  color: white;
+}
+
+
+/***************Shopfi***************/
+
+#mainTable{
+  background-color: rgb(56, 53, 48);
+  border: none;
+  border-radius: 10%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 3%;
+
+
+}
+
+.tableIMG{
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+.cost{
+    color: rgb(20, 186, 20);
+    font-size: 20px;
+} 
+
+
+.Tlink{
+  font-size: 25px;
+  color: rgb(227, 189, 136);
+}
+
+.T_head{
+  color: antiquewhite;
+  text-decoration: underline;
+  font-size: 60px;
+  
+}
+
+
+
+.MLDes{
+  border: 2px solid antiquewhite;;
+  border-radius: 10%;
+  height: min-content;
+  color: rgb(227, 189, 136);;
+  font-size: 22px;
+
+}
+
+.buttonTable{
+  width: 100% ; 
+  background-color: rgb(80, 71, 59);
+}
+
+.theP{
+  font-size: 180px;
+  animation: ChangeColor 2s infinite;
+
+}
+@keyframes ChangeColor {
+  0% {color: rgb(0, 255, 0);}
+  10% {color: rgb(0, 193, 0);}
+  20% {color: rgb(0, 165, 0);}
+  30% {color: rgb(0, 161, 0);}
+  40% {color: rgb(0, 149, 0);}
+  50% {color: green};
+  60% {color: rgb(0, 149, 0);}
+  70% {color: rgb(0, 161, 0);}
+  80% {color: rgb(0, 165, 0);}
+  90% {color: rgb(0, 193, 0);}
+  100% {color: rgb(0, 255, 0);}
+
+  
+}
+/***************Contact Us***************/
+
+label{
+  margin-bottom: 2%;
+  width: 90%;
+  margin-left: 5%;
+  background-color: aliceblue;
+}
+.redS{
+  color: red;
+}
+.ContactInfo{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: aliceblue;
+    margin-bottom: 2%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: aliceblue;
+    
+}
+
+.submit{
+  margin-bottom: 2%;
+  width: 90%;
+  margin-left: 5%;
+  background-color: aliceblue;
+
+}
+
+.submit:hover{
+   background-color: wheat;
+}
+
+.reset{
+  margin-bottom: 2%;
+  width: 20%;
+  margin-left: 40%;
+  background-color: aliceblue;
+}
+
+.reset:hover{
+  background-color: wheat;
+
+}
+
+/***************AboutMe***************/
+
+#loremA{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: 2px solid rosybrown;
+  width: 110px;
+  height: 20px;
+}
+
+
+/***************StartDropDown***************/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  box-shadow: 0px 8px 20px 5px green;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+/***************EndtDropDown***************/
+
+
+/***************buttons_row***************/
+
+.Sinput{
+  width: 100%;
+  background-color: transparent;
+  color: antiquewhite;
+  border: none;
+  font-size: 30px;
+}
+.Sinput:hover .headbuttans {display: block;}
+.Sinput:hover {background-color: #3e818e;}
+
+
+
